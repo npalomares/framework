@@ -1,0 +1,164 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: 'verdana', sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+
+/*Typography*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open-sans', 'Helvetica', 'Verdana', sans-serif; 
+	margin-bottom: 20px;
+}
+a {
+	color: #5a8973;
+	text-decoration: none;
+}
+a:hover {
+	color: #4c7562;
+}
+.banner {
+	background-color: #d7d7d7;
+	padding: 10px 0;
+}
+.logo {
+	padding: 5px 5px 5px 0;
+	float: left;
+	margin-right: 25px;
+}
+.logo h1.site-title {
+	margin-bottom: 0 !important;
+}
+.current_page_item a {
+	color: red;
+}
+#nav-btn {
+	background-color: #000;
+	height: 25px;
+  	width: 25px;
+  	margin: 2px;
+  	cursor: pointer;
+  	float: right;
+}
+nav ul {
+	padding-top: 5px;
+	padding-left: 0;
+	list-style-type: none;
+}
+nav ul li {
+	display: inline;
+}
+nav ul li a {
+	padding: 10px 15px;
+}
+.header-contact {
+	padding-top: 5px;
+}
+.content {
+	background-color: #ebebeb;
+	/*padding-top: 40px;*/
+	/*padding-bottom: 40px;*/
+}
+.main {  }
+.page-wrap {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+/*Front Page Styles*/
+.page-id-10 .main {
+	padding-top: 0 !important;
+}
+.front-intro,
+.inner-intro {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+	background-color: #FFF;
+}
+.page-header {
+	margin-bottom: 30px;
+}
+.boxes {
+	margin-bottom: 25px;
+}
+.box {
+	padding: 20px;
+	height: 200px;
+	background-color: #d7d7d7;
+}
+
+/*Form Styles*/
+form {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.form-control {
+	margin-bottom: 10px;
+}
+form label {
+	display: block;
+	margin-bottom: 3px;
+	font-size: 16px;
+	color: #333;
+}
+.form-control {
+	margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+	height: 40px;
+}
+textarea {
+	height: 150px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea  {
+	width: 100%;
+	border: 1px solid #d7d7d7;
+	padding: 5px;
+	font-family: 'Arial';
+	font-size: 16px;
+	color: #919191;
+}
+input[type="submit"] {
+	cursor: pointer;
+}
+.btn-primary {
+	padding: 10px 20px;
+	background-color: #5a8973;
+	color: #FFF;
+	border: none;
+}
+.btn-primary:hover {
+	background-color: #4c7562
+}
+
+/*Page Specific*/
+
+/* Front Page */
+.boxes .last {
+	margin-right: 0 !important;
+}
+
+
+
+
+
+
+/*Contact Page*/
+.page-id-13 { }
+
+
+.footer-wrap {
+	background-color: #CCC;
+	padding: 40px 0;
+}
