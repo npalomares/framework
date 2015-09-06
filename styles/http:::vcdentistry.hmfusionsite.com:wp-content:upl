@@ -1,0 +1,23 @@
+http://vcdentistry.hmfusionsite.com/wp-content/uploads/sites/49/yelp.png
+
+
+<div class="hidden-xs">
+<p><span class="phone"><img src="/wp-content/themes/village/assets/img/icon_phone.png" alt="Phone icon">  <a href="tel:858-566-8510">858-566-8510</a></span>
+<p><small>9982 Scripps Ranch Blvd, San Diego, CA 92131 • <br>
+<a href="https://www.yelp.com/biz/village-center-dentistry-san-diego-3" target="_blank"><img src="/wp-content/uploads/sites/49/yelp.png" alt="Yelp icon"></a> <a href="https://www.facebook.com/jennifersantorodds" target="_blank"><img src="/wp-content/themes/village/assets/img/icon_fb.png" alt="Facebook icon"></a></small></p>
+</div>
+
+<div class="visible-xs">
+<div class="pull-left">
+<p>
+<a href="https://www.yelp.com/biz/village-center-dentistry-san-diego-3" target="_blank"><img src="/wp-content/uploads/sites/49/yelp.png" alt="Yelp icon"></a> | <a href="https://www.facebook.com/jennifersantorodds" target="_blank"<img src="/wp-content/themes/village/assets/img/icon_fb.png" alt="Facebook icon" class="fb"></a> 
+<a href="tel:858-566-8510"><img src="/wp-content/themes/village/assets/img/icon_phone.png" alt="Phone icon"></a>
+
+</p>
+</div>
+
+<div class="pull-right text-right">
+<p>9982 Scripps Ranch Blvd <br> 
+San Diego, CA 92131</p>
+</div>
+</div>

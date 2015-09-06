@@ -1,12 +1,14 @@
+html {
+	/*background-color: black;*/
+}
 * {
 	margin: 0;
 	padding: 0;
 }
 .container {
-	width: 1170px;
 	margin: 0 auto;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 /**
  * For modern browsers
@@ -17,13 +19,13 @@
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-.cf:before,
-.cf:after {
+.clearfix:before,
+.clearfix:after {
     content: " "; /* 1 */
     display: table; /* 2 */
 }
 
-.cf:after {
+.clearfix:after {
     clear: both;
 }
 
@@ -31,7 +33,7 @@
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-.cf {
+.clearfix {
     *zoom: 1;
 }
 .left {
@@ -43,3 +45,66 @@
 .tx-center {
 	text-align: center;
 }
+.one-third {
+	float: left;
+	width: 30%;
+	margin-right: 3%;
+}
+.one-third::last-child {
+	margin-right: 0 !important;
+}
+.boxes:nth-child(3) {
+	margin-right: 0 !important;
+}
+.two-thirds {
+	float: left;
+	width: 64%;
+	margin-right: 3%;
+}
+.two-thirds:nth-child(4) {
+	margin-right: 0 !important;
+}
+@media( max-width: 767px ) {
+	#nav-mobile,
+	/*#nav-btn,*/
+	#nav {
+		display: none;
+	}
+	#nav-mobile {
+		clear: both;
+	}
+	#nav-mobile li {
+		padding: 10px 15px;
+	}
+	#nav-mobile li a {
+		display: block;
+	}
+	#nav-mobile li a:hover {
+		color: #CCC;
+	}
+
+}
+
+@media( min-width: 768px ) {
+	.container {
+		width: 750px;
+	}
+	#nav-btn ,
+	#nav-mobile {
+		display: none;
+	}
+}
+@media( min-width: 991px ) {
+	.container {
+		width: 960px;
+	}
+}
+@media( min-width: 1200px ) {
+	.container {
+		width: 1170px;
+	}
+}
+
+
+
+
